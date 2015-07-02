@@ -1,0 +1,18 @@
+.gform_wrapper form.processing {
+    opacity: 0.5;
+    position: relative;
+}
+
+.gform_wrapper form.processing:before {
+    content: "Processing....";
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #12a6d3;
+    text-align: center;
+}
