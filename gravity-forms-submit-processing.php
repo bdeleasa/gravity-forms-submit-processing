@@ -15,7 +15,7 @@
 add_action( 'wp_enqueue_scripts', 'gravity_forms_submit_processing_scripts' );
 function gravity_forms_submit_processing_scripts() {
 
-    wp_enqueue_style( 'gfsp-css', plugins_url('css/saa-booking-form.css', __FILE__), false, null );
-    wp_enqueue_script( 'gfsp-js', plugins_url('js/saa-booking-form.js', __FILE__) , array('jquery'), null, true );
+    wp_enqueue_style( 'gfsp-css', plugins_url('css/gravity-forms-submit-processing.css', __FILE__), false, null );
+    wp_enqueue_script( 'gfsp-js', plugins_url('js/gravity-forms-submit-processing.js', __FILE__) , array('jquery'), null, true );
 
 }
