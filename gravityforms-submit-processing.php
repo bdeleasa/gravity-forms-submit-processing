@@ -14,6 +14,14 @@
 
 
 add_action( 'wp_enqueue_scripts', 'gfsp_enqueue_scripts' );
+/**
+ * Outputs the scripts needed for this plugin to work.
+ *
+ * @param none
+ * @return none
+ *
+ * @since 1.0.0
+ */
 function gfsp_enqueue_scripts() {
 
     wp_enqueue_style( 'gfsp-css', plugins_url('css/gravityforms-submit-processing.css', __FILE__), false, null );
