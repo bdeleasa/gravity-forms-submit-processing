@@ -12,8 +12,9 @@
  * Domain Path:       /languages
  */
 
-add_action( 'wp_enqueue_scripts', 'gravity_forms_submit_processing_scripts' );
-function gravity_forms_submit_processing_scripts() {
+
+add_action( 'wp_enqueue_scripts', 'gfsp_enqueue_scripts' );
+function gfsp_enqueue_scripts() {
 
     wp_enqueue_style( 'gfsp-css', plugins_url('css/gravityforms-submit-processing.css', __FILE__), false, null );
     wp_enqueue_script( 'gfsp-js', plugins_url('js/gravityforms-submit-processing.js', __FILE__) , array('jquery'), null, true );
