@@ -13,7 +13,7 @@
  */
 
 
-add_action( 'wp_enqueue_scripts', 'gfsp_enqueue_scripts' );
+add_action( 'gform_enqueue_scripts', 'gfsp_enqueue_scripts', 10, 2 );
 /**
  * Outputs the scripts needed for this plugin to work.
  *
