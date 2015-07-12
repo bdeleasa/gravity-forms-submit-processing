@@ -3,7 +3,7 @@
  * Plugin Name:       Gravity Forms Submit Processing
  * Plugin URI:        https://github.com/bdeleasa/gravityforms-submit-processing
  * Description:       Disables the submit button upon submitting a Gravity Forms form to help prevent multiple submissions.
- * Version:           2.0.0
+ * Version:           2.1.0
  * Author:            Brianna Deleasa
  * Author URI:        http://briannadeleasa.com
  * License:           GPL-2.0+
