@@ -22,7 +22,7 @@ add_action( 'gform_enqueue_scripts', 'gfsp_enqueue_scripts', 10, 2 );
  *
  * @since 1.0.0
  */
-function gfsp_enqueue_scripts() {
+function gfsp_enqueue_scripts( $form, $is_ajax ) {
 
     wp_enqueue_style( 'gfsp-css', plugins_url('css/gravityforms-submit-processing.css', __FILE__), false, null );
     wp_enqueue_script( 'gfsp-js', plugins_url('js/gravityforms-submit-processing.js', __FILE__) , array('jquery'), null, true );
